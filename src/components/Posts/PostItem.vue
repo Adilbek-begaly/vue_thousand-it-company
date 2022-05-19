@@ -47,4 +47,13 @@ export default {
     border-radius: 10px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 560px) {
+    .post {
+        flex-direction: column;
+    }
+    .btn{
+        margin-top: 10px;
+    }
+}
 </style>

@@ -39,4 +39,21 @@ export default {
     margin-right: 80px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 560px) {
+    .btn {
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .navbar {
+        height: 90px;
+    }
+    .navbar_btns {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
 </style>

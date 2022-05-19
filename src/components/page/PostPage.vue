@@ -178,4 +178,25 @@ export default {
     margin-right: 100px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 620px) {
+    .search-input {
+        margin: 0;
+    }
+    .btn {
+        margin: 0;
+    }
+    
+}
+@media only screen and (max-width: 420px) {
+    .search-input {
+        margin: 0;
+        width: 120px;
+    }
+    .btn {
+        margin: 0;
+    }
+    
+}
+
 </style>
